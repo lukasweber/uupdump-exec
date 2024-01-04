@@ -16,7 +16,7 @@ With this docker image, there is no need for that. You simply mount the download
 
     ```bash
     cd downloader
-    docker run -it -v "$PWD/:/downloader" gcr.io/lukasweber/uupdump-exec
+    docker run -it -v "$PWD/:/downloader" ghcr.io/lukasweber/uupdump-exec
     ```
 
     There you go ... :)
